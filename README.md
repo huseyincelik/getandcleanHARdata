@@ -1,0 +1,2 @@
+First training and test datas columns are filtered by case insensitive for std and mean columns.
+Then test and training datas are merged to single dataframe. Group by and mean operation is handled by dplyr summarise.
