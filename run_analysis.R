@@ -39,4 +39,4 @@ grouped <- labeledDF %>% group_by(Activity) %>% summarise_each(funs(mean))
 
 write.table(grouped, file = "tidy.txt", row.names = FALSE)
 
-
+grouped
